@@ -86,7 +86,6 @@ int LeArquivo(char* nomeArquivo, int* matriz){
             }else{
                 printf("A linha possui %d celula(s) a menos.", M - strlen(linha));
             }
-            // printf("A matriz nao podera conter espacos entre as celulas e nem no final de cada linha.\n");
             return 1;
         }
 
